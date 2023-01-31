@@ -1,3 +1,5 @@
+const Block = require('./block');
+
 describe('Block', () => {
     const timestamp = 'a-date';
     const lastHash = 'foo hash';
@@ -8,10 +10,10 @@ describe('Block', () => {
         lastHash: lastHash,
         hash: hash,
         data: data
-        const block = new Block({ timestamp, lastHash, hash data });
+        const block = new Block({ timestamp, lastHash, hash data })
         it('has a timestamp, lastHash, hash, and data property', () => {
-        expect(block.timestamp).toEqual(timestamp);
-        
+        expect(block.timestamp).toEqual(timestamp)
+
 
     });
     
